@@ -106,7 +106,7 @@ class keyboard {
                     html += `<div class="btn-box icon color-2" data-no="${key}"><div class="item" value="${item.text}">${item.text}</div></div>`
                     break;
                 case 'return':
-                    html += `<div class="btn-box return color-2" data-no="${key}"><div class="item" value="${item.text}"><img src="enter.svg"></div></div>`
+                    html += `<div class="btn-box return color-2" data-no="${key}"><div class="item" value="${item.text}"><img src="./public/enter.svg"></div></div>`
                     break;
                 case 'symbol':
                     hasSymbol = true
